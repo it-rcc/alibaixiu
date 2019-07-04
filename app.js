@@ -28,7 +28,7 @@ app.use(formidableMiddleware({
     keepExtensions: true
 }));
 
-// 数据库连接
+// 数据库连接搜索
 mongoose.connect('mongodb://localhost:27017/alibaixiu', { useNewUrlParser: true, useCreateIndex: true })
     .then(() => console.log('数据库连接成功'))
     .catch(() => console.log('数据库连接失败'));
