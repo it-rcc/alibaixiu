@@ -4,6 +4,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 // 引入路径处理模块
 const path = require('path');
+require('./genComments');
 // 引入session模块
 var session = require('express-session');
 // 处理文件上传
